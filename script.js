@@ -96,17 +96,30 @@ const i18n = {
   }
 };
 
+// ===== FORM URLS PER LANGUAGE =====
+const formUrls = {
+    ru: 'https://docs.google.com/forms/d/e/1FAIpQLSf0MDfAIQCAzPs-ODHomhlww-L9MJOvRBGSHeD6lqD3AYlQbcg/viewform',
+    kz: 'https://docs.google.com/forms/d/e/1FAIpQLSdbGH0GCV7N_iSgsLT5rWwsxOnvwdHc7UbBMzGvUMawmf1LQg/viewform',
+    en: 'https://docs.google.com/forms/d/e/1FAIpQLSeduRP-QrxNCV5MSGnui92dxTJThJLKa7l4gFvwC4EmOnkKPw/viewform'
+};
+
 let currentLang = 'ru';
 
 function setLang(lang) {
     currentLang = lang;
     document.documentElement.lang = lang === 'kz' ? 'kk' : lang;
+    // Update text
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (i18n[lang] && i18n[lang][key]) el.textContent = i18n[lang][key];
     });
+    // Update active button
     document.querySelectorAll('.lang-btn').forEach(b => {
         b.classList.toggle('active', b.dataset.lang === lang);
+    });
+    // Update all form links to match language
+    document.querySelectorAll('a[data-form-link]').forEach(a => {
+        a.href = formUrls[lang] || formUrls.ru;
     });
 }
 
