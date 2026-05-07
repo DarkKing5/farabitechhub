@@ -1,5 +1,5 @@
 /* ================================================
-   Farabi Innovation Hub — V3 JS + i18n
+   Farabi Tech Hub — V3 JS + i18n
    ================================================ */
 
 // ===== TRANSLATIONS =====
@@ -11,7 +11,7 @@ const i18n = {
     "hero.sub": "Новая точка притяжения стартапов, инвесторов и технологий в самом сердце главного университета Казахстана.",
     "hero.date": "13 мая 2026", "hero.free": "Вход бесплатный", "hero.cta": "Оставить заявку на участие",
     "about.tag": "О мероприятии", "about.title": "Экосистема, объединяющая науку и бизнес",
-    "about.desc": "Farabi Innovation Hub — первый университетский бизнес-инкубатор в Казахстане, созданный при КазНУ им. аль-Фараби. AI-акселерация, менторство от лидеров индустрии, прямой выход на инвесторов.",
+    "about.desc": "Farabi Tech Hub — первый университетский бизнес-инкубатор в Казахстане, созданный при КазНУ им. аль-Фараби. AI-акселерация, менторство от лидеров индустрии, прямой выход на инвесторов.",
     "about.eco.title": "Экосистема", "about.eco.desc": "Полный цикл от идеи до масштабирования. Коворкинг, менторство, акселерация и выход на инвесторов — всё в одном пространстве на базе КазНУ.",
     "about.exp.title": "Экспертиза", "about.exp.desc": "Менторы из бизнеса, AI Startify — платформа для построения стартапов на базе ИИ.",
     "about.inv.title": "Инвестиции", "about.inv.desc": "«Аллея стартапов» — прямой доступ к инвесторам и грантам QazInnovations.",
@@ -32,7 +32,7 @@ const i18n = {
     "ben.investors.title": "Инвесторы", "ben.investors.desc": "Ваш проект перед глазами инвесторов",
     "cta.title": "Примите участие в открытии", "cta.desc": "Заполните короткую форму регистрации — это займёт 30 секунд. Количество мест ограничено.",
     "cta.location": "КазНУ, Алматы", "cta.btn": "Зарегистрироваться",
-    "footer.uni": "КазНУ им. аль-Фараби", "footer.copy": "© 2026 Farabi Innovation Hub. Все права защищены."
+    "footer.uni": "КазНУ им. аль-Фараби", "footer.copy": "© 2026 Farabi Tech Hub. Все права защищены."
   },
   kz: {
     "nav.about": "Іс-шара туралы", "nav.program": "Бағдарлама", "nav.partners": "Серіктестер", "nav.benefits": "Мүмкіндіктер", "nav.cta": "Тіркелу",
@@ -41,7 +41,7 @@ const i18n = {
     "hero.sub": "Қазақстанның бас университетінің жүрегіндегі стартаптар, инвесторлар мен технологиялардың жаңа тартылыс нүктесі.",
     "hero.date": "13 мамыр 2026", "hero.free": "Кіру тегін", "hero.cta": "Қатысуға өтінім беру",
     "about.tag": "Іс-шара туралы", "about.title": "Ғылым мен бизнесті біріктіретін экожүйе",
-    "about.desc": "Farabi Innovation Hub — Қазақстандағы алғашқы университеттік бизнес-инкубатор, ҚазҰУ негізінде құрылған. AI-акселерация, сала көшбасшыларынан менторлық, инвесторларға тікелей қол жеткізу.",
+    "about.desc": "Farabi Tech Hub — Қазақстандағы алғашқы университеттік бизнес-инкубатор, ҚазҰУ негізінде құрылған. AI-акселерация, сала көшбасшыларынан менторлық, инвесторларға тікелей қол жеткізу.",
     "about.eco.title": "Экожүйе", "about.eco.desc": "Идеядан масштабтауға дейінгі толық цикл. Коворкинг, менторлық, акселерация және инвесторларға шығу — барлығы ҚазҰУ базасындағы бір кеңістікте.",
     "about.exp.title": "Сараптама", "about.exp.desc": "Бизнестен менторлар, AI Startify — ЖИ негізінде стартаптар құруға арналған платформа.",
     "about.inv.title": "Инвестициялар", "about.inv.desc": "«Стартаптар аллеясы» — инвесторларға және QazInnovations гранттарына тікелей қол жеткізу.",
@@ -62,7 +62,7 @@ const i18n = {
     "ben.investors.title": "Инвесторлар", "ben.investors.desc": "Сіздің жобаңыз инвесторлардың көз алдында",
     "cta.title": "Ашылуға қатысыңыз", "cta.desc": "Қысқа тіркелу формасын толтырыңыз — бұл 30 секунд алады. Орын саны шектеулі.",
     "cta.location": "ҚазҰУ, Алматы", "cta.btn": "Тіркелу",
-    "footer.uni": "Әл-Фараби атындағы ҚазҰУ", "footer.copy": "© 2026 Farabi Innovation Hub. Барлық құқықтар қорғалған."
+    "footer.uni": "Әл-Фараби атындағы ҚазҰУ", "footer.copy": "© 2026 Farabi Tech Hub. Барлық құқықтар қорғалған."
   },
   en: {
     "nav.about": "About", "nav.program": "Program", "nav.partners": "Partners", "nav.benefits": "Opportunities", "nav.cta": "Register",
@@ -71,7 +71,7 @@ const i18n = {
     "hero.sub": "A new center of gravity for startups, investors and technology in the heart of Kazakhstan's leading university.",
     "hero.date": "May 13, 2026", "hero.free": "Free admission", "hero.cta": "Apply to attend",
     "about.tag": "About the Event", "about.title": "An ecosystem bridging science and business",
-    "about.desc": "Farabi Innovation Hub is the first university-based business incubator in Kazakhstan, created at Al-Farabi KazNU. AI-acceleration, mentorship from industry leaders, direct access to investors.",
+    "about.desc": "Farabi Tech Hub is the first university-based business incubator in Kazakhstan, created at Al-Farabi KazNU. AI-acceleration, mentorship from industry leaders, direct access to investors.",
     "about.eco.title": "Ecosystem", "about.eco.desc": "Full cycle from idea to scale. Coworking, mentorship, acceleration and investor access — all in one space at KazNU.",
     "about.exp.title": "Expertise", "about.exp.desc": "Business mentors, AI Startify — an AI-powered platform for building startups.",
     "about.inv.title": "Investment", "about.inv.desc": "\"Startup Alley\" — direct access to investors and QazInnovations grants.",
@@ -92,7 +92,7 @@ const i18n = {
     "ben.investors.title": "Investors", "ben.investors.desc": "Your project in front of investor eyes",
     "cta.title": "Join the Grand Opening", "cta.desc": "Fill out a short registration form — it takes 30 seconds. Seats are limited.",
     "cta.location": "KazNU, Almaty", "cta.btn": "Register now",
-    "footer.uni": "Al-Farabi KazNU", "footer.copy": "© 2026 Farabi Innovation Hub. All rights reserved."
+    "footer.uni": "Al-Farabi KazNU", "footer.copy": "© 2026 Farabi Tech Hub. All rights reserved."
   }
 };
 
