@@ -102,8 +102,8 @@ const i18n = {
 // ===== FORM URLS PER LANGUAGE =====
 const formUrls = {
     ru: 'https://docs.google.com/forms/d/e/1FAIpQLSf0MDfAIQCAzPs-ODHomhlww-L9MJOvRBGSHeD6vTpDJBPzBA/viewform',
-    kz: 'https://docs.google.com/forms/d/e/1FAIpQLSdbGH0GCV7N_iSgsLT5rWwsxOnvwdHc7UbBMzGvUMawmf1LQg/viewform',
-    en: 'https://docs.google.com/forms/d/e/1FAIpQLSeduRP-QrxNCV5MSGnui92dxTJThJLKa7l4gFvwC4EmOnkKPw/viewform'
+    kz: 'https://docs.google.com/forms/d/e/1FAIpQLSf0MDfAIQCAzPs-ODHomhlww-L9MJOvRBGSHeD6vTpDJBPzBA/viewform',
+    en: 'https://docs.google.com/forms/d/e/1FAIpQLSf0MDfAIQCAzPs-ODHomhlww-L9MJOvRBGSHeD6vTpDJBPzBA/viewform'
 };
 
 let currentLang = 'ru';
